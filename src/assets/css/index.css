@@ -1,0 +1,13 @@
+@import 'reset.css';
+
+body {
+    background-color: #12151b;
+    font-family: 'Eudoxus Sans', 'serif', 'sans-serif';
+    font-size: 14px;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    cursor: pointer;
+}
