@@ -8,7 +8,9 @@
     "preview": "vite preview",
     "lint": "eslint ./src",
     "lint:fix": "eslint --fix --ext .ts,.tsx ./src",
-    "format": "prettier --write ./src"
+    "format": "prettier --write ./src",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "effector": "^22.3.0",
@@ -22,6 +24,14 @@
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@storybook/addon-actions": "^6.5.9",
+    "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/addon-interactions": "^6.5.9",
+    "@storybook/addon-links": "^6.5.9",
+    "@storybook/builder-vite": "^0.2.0",
+    "@storybook/react": "^6.5.9",
+    "@storybook/testing-library": "^0.0.13",
     "@types/node": "^18.0.0",
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
@@ -30,6 +40,7 @@
     "@typescript-eslint/eslint-plugin": "^5.30.5",
     "@typescript-eslint/parser": "^5.30.5",
     "@vitejs/plugin-react": "^2.0.0",
+    "babel-loader": "^8.2.5",
     "eslint": "^8.20.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^17.0.0",
