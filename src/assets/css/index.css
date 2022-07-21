@@ -1,7 +1,7 @@
 @import 'reset.css';
 
 body {
-    background-color: #12151b;
+    background-image: linear-gradient(to right top, #051937, #5c2a5b, #ae3e56, #d87632, #c6c31d);
     font-family: 'Eudoxus Sans', 'serif', 'sans-serif';
     font-size: 14px;
     color: #fff;
