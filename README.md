@@ -3,27 +3,26 @@ Very simple starter kit for my react web dev projects with **typescript, styled-
 react-router and effector (with immer)**
 
 ## Ecosystem
-
 * Using font [Eudoxus Sans](https://stijndv.com/goodies/eudoxus-sans/) connected globally from index.html
-* For create new alias, just need to edit **tsconfig.json -> paths** and vite-tsconfig-paths plugin will do the rest
+* For create new alias, just need to edit **tsconfig.json -> paths** and vite-tsconfig-paths plugin will do the rest 
+* Predefined path aliases:
+`Assets`  `Components` `Pages` `Data` `Routes` `Types` `Utils` **for src/[*alias*]**
 
-Predefined alias:
-`Assets`, `Components`, `Pages`, `Data`, `Routes`, `Types`, `Utils`  
-**example path: src/components**
-
-## Installing / Developing
-
-Now you are ready to go:
-
-```shell
+  
+## Installation
+Clone the repo and **run for get deterministic, repeatable build**
+```
 npm ci
 ```
 
-**Use to get deterministic, repeatable build**
+Or run command
+```
+npx degit TheVerilly/react-starter-kit project-name
+```
 
-This will install the dependencies required to run the boilerplate.
 
-```shell
+Now you are ready to go:
+```
 npm run dev
 ```
 
