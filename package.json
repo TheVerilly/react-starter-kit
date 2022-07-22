@@ -2,6 +2,7 @@
   "name": "react-starter-kit",
   "private": true,
   "version": "0.0.1",
+  "author": "Dmitry Agibalov <TheVerilly@gmail.com> (https://github.com/TheVerilly)",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
