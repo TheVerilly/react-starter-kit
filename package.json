@@ -2,7 +2,6 @@
   "name": "react-starter-kit",
   "version": "0.0.1",
   "author": "Dmitry Agibalov (https://github.com/theverilly)",
-  "homepage": "https://theverilly.github.io/react-starter-kit/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -10,9 +9,7 @@
     "lint": "eslint ./src",
     "lint:fix": "eslint --fix --ext .ts,.tsx ./src",
     "format": "prettier --write ./src",
-    "test": "vitest",
-    "predeploy": "npm ci && npm run build",
-    "deploy": "gh-pages -d dist"
+    "test": "vitest"
   },
   "dependencies": {
     "effector": "^22.3.0",
@@ -46,7 +43,6 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "gh-pages": "^4.0.0",
     "prettier": "^2.7.1",
     "typescript": "^4.7.4",
     "vite": "^3.0.2",

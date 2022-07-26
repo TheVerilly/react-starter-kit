@@ -3,7 +3,7 @@ Very simple starter kit for my react web dev projects with **typescript, styled-
 react-router and effector (with immer)**
 
 
-![preview](src/assets/img/preview.webp)
+![preview](doc/img/preview.webp)
 
 ## Ecosystem
 * Using font [Eudoxus Sans](https://stijndv.com/goodies/eudoxus-sans/) connected globally from index.html
