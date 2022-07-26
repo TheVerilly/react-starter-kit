@@ -41,7 +41,7 @@ const Plus = styled.span`
 
 const Preview = () => (
     <PreviewStyled>
-        <ReactIcon width={240} height={240} src="/src/assets/icons/react.svg" />
+        <ReactIcon width={240} height={240} src="/icons/react.svg" />
         <StackIcons />
         <Text>
             Vite - next generation frontend tooling with <b>typescript</b>

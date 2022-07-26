@@ -1,9 +1,8 @@
 {
   "name": "react-starter-kit",
-  "private": true,
   "version": "0.0.1",
-  "author": "Dmitry Agibalov <TheVerilly@gmail.com> (https://github.com/TheVerilly)",
-  "homepage": "https://TheVerilly.github.io/react-starter-kit",
+  "author": "Dmitry Agibalov (https://github.com/theverilly)",
+  "homepage": "https://theverilly.github.io/react-starter-kit/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -13,7 +12,7 @@
     "format": "prettier --write ./src",
     "test": "vitest",
     "predeploy": "npm ci && npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "effector": "^22.3.0",

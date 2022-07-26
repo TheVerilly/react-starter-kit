@@ -9,7 +9,7 @@ const Box = styled.div`
     background-color: #f5eac3;
     padding: 13px;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
 
     img {
         cursor: pointer;
@@ -30,7 +30,7 @@ const IconList = () => {
         <Box>
             {icons.map(({ name, link }) => (
                 <a key={name} href={link}>
-                    <Icon src={`/src/assets/icons/${name}.svg`} title={name} />
+                    <Icon src={`/icons/${name}.svg`} title={name} />
                 </a>
             ))}
         </Box>
