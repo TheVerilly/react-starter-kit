@@ -28,16 +28,56 @@
         "plugin:effector/scope"
     ],
     "rules": {
-        "indent": ["error", 4, {"SwitchCase": 1}],
-        "import/no-extraneous-dependencies": ["error", {"packageDir": "./"}],
-        "react/function-component-definition": ["error", {"namedComponents": "arrow-function", "unnamedComponents": "arrow-function"}],
-        "@typescript-eslint/indent": ["error", 4],
+        "indent": [
+            "error",
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "import/no-extraneous-dependencies": [
+            "error",
+            {
+                "packageDir": "./"
+            }
+        ],
+        "react/function-component-definition": [
+            "error",
+            {
+                "namedComponents": "arrow-function",
+                "unnamedComponents": "arrow-function"
+            }
+        ],
+        "@typescript-eslint/indent": [
+            "error",
+            4
+        ],
         "react/react-in-jsx-scope": "off",
-        "react/jsx-indent": ["error", 4],
+        "react/jsx-indent": [
+            "error",
+            4
+        ],
         "react/destructuring-assignment": "off",
-        "no-param-reassign": ["error", {"props": false}],
+        "no-param-reassign": [
+            "error",
+            {
+                "props": false
+            }
+        ],
         "import/prefer-default-export": "off",
         "react/jsx-props-no-spreading": "off",
-        "react/jsx-fragments": "off"
+        "react/jsx-fragments": "off",
+        "jsx-quotes": [
+            "error",
+            "prefer-double"
+        ],
+        "react/jsx-indent-props": [
+            "error",
+            4
+        ],
+        "react/jsx-one-expression-per-line": "off",
+        "max-len": ["error", { "code": 120 }],
+        "arrow-body-style": "off",
+        "object-curly-newline": "off"
     }
 }
