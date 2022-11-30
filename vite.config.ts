@@ -6,11 +6,7 @@ import eslint from 'vite-plugin-eslint';
 
 export default defineConfig({
     plugins: [
-        react({
-            babel: {
-                plugins: [['effector/babel-plugin', { importName: 'effector-logger' }]],
-            },
-        }),
+        react(),
         tsconfigPaths(),
         svgr({
             exportAsDefault: true,

@@ -47,7 +47,7 @@ const Preview = () => (
             Vite - next generation frontend tooling with <b>typescript</b>
         </Text>
         <Text>
-            React <Plus>+</Plus> React Router <Plus>+</Plus> React Hook Form <Plus>+</Plus> Effector with Immer
+            React <Plus>+</Plus> React Router <Plus>+</Plus> React Hook Form
         </Text>
         <Text>Styled Components - css in JS with the best DX</Text>
         <Text>Eslint and Prettier - to keep the code consistent</Text>

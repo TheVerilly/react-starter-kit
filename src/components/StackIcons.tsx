@@ -21,8 +21,6 @@ const icons = [
     { name: 'typescript', link: 'https://www.typescriptlang.org/' },
     { name: 'styled-components', link: 'https://styled-components.com/' },
     { name: 'react-router', link: 'https://reactrouter.com/docs/en/v6' },
-    { name: 'effector', link: 'https://effector.dev/' },
-    { name: 'immer', link: 'https://immerjs.github.io/immer/' },
 ];
 
 const IconList = () => {

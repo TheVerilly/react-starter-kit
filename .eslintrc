@@ -15,7 +15,6 @@
     "parser": "@typescript-eslint/parser",
     "plugins": [
         "react",
-        "effector",
         "import",
         "@typescript-eslint"
     ],
@@ -23,9 +22,7 @@
         "airbnb",
         "airbnb-typescript",
         "plugin:react/recommended",
-        "plugin:react-hooks/recommended",
-        "plugin:effector/recommended",
-        "plugin:effector/scope"
+        "plugin:react-hooks/recommended"
     ],
     "rules": {
         "indent": [
@@ -76,7 +73,12 @@
             4
         ],
         "react/jsx-one-expression-per-line": "off",
-        "max-len": ["error", { "code": 120 }],
+        "max-len": [
+            "error",
+            {
+                "code": 120
+            }
+        ],
         "arrow-body-style": "off",
         "object-curly-newline": "off"
     }
