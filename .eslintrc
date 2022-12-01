@@ -73,6 +73,7 @@
             4
         ],
         "react/jsx-one-expression-per-line": "off",
+        "react/require-default-props": "off",
         "max-len": [
             "error",
             {

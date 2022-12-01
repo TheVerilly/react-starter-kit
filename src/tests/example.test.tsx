@@ -8,8 +8,4 @@ describe('is equal', () => {
     it('bar', () => {
         assert.equal(Math.sqrt(4), 2);
     });
-
-    it('snapshot', () => {
-        expect({ foo: 'bar' }).toMatchSnapshot();
-    });
 });

@@ -8,22 +8,8 @@ type Props = {
     title?: string;
 };
 
-const Icon: FC<Props> = (props) => (
-    <img
-        className={props.className}
-        width={props.width}
-        height={props.height}
-        src={props.src}
-        alt="icon"
-        title={props.title}
-    />
-);
-
-Icon.defaultProps = {
-    width: 20,
-    height: 20,
-    className: '',
-    title: '',
+const Icon: FC<Props> = ({ width = 20, height = 20, src = '', title = '', className = '' }) => {
+    return <img className={className} width={width} height={height} src={src} alt="icon" title={title} />;
 };
 
 export default Icon;

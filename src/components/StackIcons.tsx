@@ -5,9 +5,9 @@ import Icon from 'Components/Icon';
 const Box = styled.div`
     display: flex;
     align-items: center;
-    gap: 23px;
+    gap: 35px;
     background-color: #f5eac3;
-    padding: 13px;
+    padding: 15px 25px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
 
