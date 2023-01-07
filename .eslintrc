@@ -61,7 +61,6 @@
                 "props": false
             }
         ],
-        "import/prefer-default-export": "off",
         "react/jsx-props-no-spreading": "off",
         "react/jsx-fragments": "off",
         "jsx-quotes": [
